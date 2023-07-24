@@ -10,7 +10,7 @@ $food2 = new Food('Almo Nature Holistic Maintenance Medium Large Tonno e Riso', 
 
 $food3 = new Food('Almo Nature Cat Daily Lattina', '34.99', 'Gatti', 'https://arcaplanet.vtexassets.com/arquivos/ids/245336/almo-daily-menu-cat-400-gr-vitello.jpg', '400g', 'Tonno , Pollo , Prosciutto');
 
-$food4 = new Food('Mangime per Pesci Guppy in Fiocchi', '2.95', 'Pesci', 'https://arcaplanet.vtexassets.com/arquivos/ids/272714/tetra-guppy-mini-flakes.jpg', '400g', 'Pesci e Sotto prodotti pesci , Cereali , Lieviti , ALghe');
+$food4 = new Food('Mangime per Pesci Guppy in Fiocchi', '2.95', 'Pesci', 'https://arcaplanet.vtexassets.com/arquivos/ids/272714/tetra-guppy-mini-flakes.jpg', '400g', 'Pesci e sotto prodotti pesci , Cereali , Lieviti , ALghe');
 
 $accessories = new Accessories('Voliera Wilma in Legno', '184,99', 'Uccelli', 'https://arcaplanet.vtexassets.com/arquivos/ids/258384/voliera-wilma1.jpg', 'Gabbia', 'Legno', 'M: L 83 x P 67 x H 153 cm');
 
