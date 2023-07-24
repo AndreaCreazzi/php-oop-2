@@ -1,10 +1,10 @@
 <?php
-include_once __DIR__ . '../Model/products.php';
-include_once __DIR__ . '../Model/games.php';
-include_once __DIR__ . '../Model/food.php';
-include_once __DIR__ . '../Model/accessories.php';
+require_once __DIR__ . '../../Model/products.php';
+require_once __DIR__ . '../../Model/games.php';
+require_once __DIR__ . '../../Model/food.php';
+require_once __DIR__ . '../../Model/accessories.php';
 
-$food = new Food('Royal Canin Mini Adult', '43.99', 'Cani', 'https://arcaplanet.vtexassets.com/arquivos/ids/243820/royal-canin-size-cane-mini-adult.jpg', '545g', 'Prosciutto , Riso');
+$food = new Food('Royal Canin Mini Adult', '43.99', 'Cani', 'https://th.bing.com/th/id/OIP.C3zzw1OWmJVUd4Xde8jCQgHaHa?w=201&h=202&c=7&r=0&o=5&dpr=1.5&pid=1.7', '545g', 'Prosciutto , Riso');
 
 $food2 = new Food('Almo Nature Holistic Maintenance Medium Large Tonno e Riso', '44.99', 'Cani', 'https://arcaplanet.vtexassets.com/arquivos/ids/245173/almo-nature-holistic-cane-adult-medium-pollo-e-riso.jpg', '600g', 'Manzo , Cereali');
 
