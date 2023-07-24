@@ -1,3 +1,11 @@
+<?php
+include __DIR__ . '/data/db.php';
+include_once __DIR__ . '../Model/products.php';
+include_once __DIR__ . '../Model/games.php';
+include_once __DIR__ . '../Model/food.php';
+include_once __DIR__ . '../Model/accessories.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

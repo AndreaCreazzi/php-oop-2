@@ -1,5 +1,5 @@
-<?php  
-include_once __DIR__ . '/products.php';
+<?php
+require_once __DIR__ . '/products.php';
 
 class Accessories extends Products
 {
@@ -7,11 +7,11 @@ class Accessories extends Products
     public $material;
     public $size;
 
-    public function __construct($title, $price, $type, $image,$categories,$material,$size)
+    public function __construct($title, $price, $type, $image, $categories, $material, $size)
     {
         parent::__construct($title, $price, $type, $image);
-        $this -> categories = $categories;
-        $this -> material = $material;
-        $this -> size = $size;
+        $this->categories = $categories;
+        $this->material = $material;
+        $this->size = $size;
     }
 }
