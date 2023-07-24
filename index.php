@@ -21,9 +21,10 @@ require_once __DIR__ . '/Model/accessories.php';
 
 <body class="bg-dark">
     <main>
-        <h1>Boolshop</h1>
+        <h1 class="text-white text-center py-5">Boolshop</h1>
         <div class="container">
             <div class="row">
+                <h2 class="text-white py-3 ms-3">I Nostri Prodotti</h2>
                 <div class="col-12 d-flex flex-wrap justify-content-center">
                     <?php foreach ($products as $product) : ?>
                         <div class="card mx-3 my-2" style="width: 18rem;">
